@@ -1,6 +1,6 @@
 "use strict";
 
-const { Text } = require("ink");
+const { h, Text, Color } = require("ink");
 const SelectInput = require("ink-select-input");
 const opn = require("opn");
 const Gradient = require("ink-gradient");
