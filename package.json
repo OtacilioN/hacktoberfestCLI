@@ -1,0 +1,39 @@
+{
+  "name": "hacktoberfestcli",
+  "version": "1.0.0",
+  "description": "The Hacktoberfest CLI",
+  "main": "./index.json",
+  "scripts": {
+    "postinstall": "cat index.json"
+  },
+  "bin": {
+    "hacktoberfest": "src/cli.js",
+    "hacktoberfestCLI": "src/cli.js",
+    "hacktoberfestcli": "src/cli.js"
+  },
+  "dependencies": {
+    "import-jsx": "^1.3.0",
+    "ink": "^0.5.1",
+    "ink-big-text": "^0.3.0",
+    "ink-gradient": "^0.1.1",
+    "ink-select-input": "^2.0.0",
+    "meow": "^5.0.0",
+    "opn": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtacilioN/hacktoberfestCLI"
+  },
+  "keywords": [
+    "Hacktoberfest",
+    "Hacktoberfest Projects",
+    "Hacktoberfest2018",
+    "Hacktoberfest CLI"
+  ],
+  "author": "Otacilio Maia <contato@otaciliomaia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OtacilioN/hacktoberfestCLI/issues"
+  },
+  "homepage": "https://github.com/OtacilioN/hacktoberfestCLI#readme"
+}
