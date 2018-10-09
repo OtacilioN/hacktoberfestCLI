@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  hacktoberfest:
+    image: node:latest
+    user: "node"
+    working_dir: /home/node/app
+    volumes:
+      - ./:/home/node/app
+    command: 'bash -c "npm install && src/cli.js"'
