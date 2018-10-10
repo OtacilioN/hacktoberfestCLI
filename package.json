@@ -4,7 +4,11 @@
   "description": "The Hacktoberfest CLI",
   "main": "./index.json",
   "scripts": {
-    "postinstall": "cat index.json"
+    "postinstall": "cat index.json",
+    "hacktoberfest": "src/cli.js",
+    "hacktoberfestCLI": "src/cli.js",
+    "hacktoberfestcli": "src/cli.js",
+    "start": "npm install; npm run hacktoberfestCLI"
   },
   "bin": {
     "hacktoberfest": "src/cli.js",
